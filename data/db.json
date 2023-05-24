@@ -1,0 +1,22 @@
+{
+    "blogs": [ 
+        {
+            "title": "My New Website Using React", 
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis nec nulla in eleifend. Mauris quis ipsum justo. Nunc tempor quam augue, at viverra ex suscipit a.", 
+            "author": "Alexina", 
+            "id": 1
+        },
+        {
+            "title": "Welcome React!", 
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis nec nulla in eleifend. Mauris quis ipsum justo. Nunc tempor quam augue, at viverra ex suscipit a.", 
+            "author": "Alexina", 
+            "id": 2
+        },
+        {
+            "title": "Web Dev Rules", 
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis nec nulla in eleifend. Mauris quis ipsum justo. Nunc tempor quam augue, at viverra ex suscipit a.", 
+            "author": "Alexina", 
+            "id": 3
+        }        
+    ]
+}
