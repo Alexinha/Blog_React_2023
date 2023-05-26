@@ -12,7 +12,7 @@ const Home = () => {
             { error && <div>{error}</div> }
             {/* use props to pass the parent's data (blog) into the child (bloglist) */}
             {/* conditional rendering: use blogs && to evaluate if blogs are still null. only til the blogs received the data from json they are outputted to the screen.  */}
-            { data && <Bloglist blogs={data} title="All blogs!"></Bloglist> }
+            { data && <Bloglist blogs={data} title={new Date().toUTCString().slice(5, 16)}></Bloglist> }
             {/* <Bloglist blogs={blogs.filter((blog) => (blog.author === 'Alexina'))} title="Alexina's blogs"></Bloglist> */}
         </div>
     );
