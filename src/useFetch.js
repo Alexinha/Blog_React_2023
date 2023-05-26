@@ -1,4 +1,6 @@
-/** this is a file that contains custom hooks */
+/** this is the useFetch component. 
+ * It is a component that contains reusable custom hooks that is designed to request page properly.
+ */
 import { useEffect } from "react";
 import { useState } from "react";
 

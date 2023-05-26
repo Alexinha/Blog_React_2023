@@ -1,4 +1,6 @@
-/** this is the home component of the webpage, it displays blog contents */
+/** this is the home component of the webpage, 
+ * it displays blog contents 
+ */
 import Bloglist from './Bloglist';
 import useFetch from './useFetch';
 

@@ -1,3 +1,9 @@
+/**
+ * this is the "create" component for the webpage, it contains a form that lets 
+ * users to input blog information, as well as a submission handler than pass the information into the 
+ * json file in json format with the correct key value pair.
+ */
+
 import { useState } from "react";
 const Create = () => {
 

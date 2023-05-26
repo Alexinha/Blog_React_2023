@@ -1,3 +1,6 @@
+/**
+ * this is where all the components and routes are handled 
+ */
 import Navbar from './Navbar';
 import Home from './Home';
 import Create from './Create';
@@ -7,7 +10,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // de
 function App() {
   
   /* dynamic values */
-
 
   /* the return values */
   return (

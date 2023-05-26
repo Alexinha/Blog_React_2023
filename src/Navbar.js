@@ -1,3 +1,6 @@
+/**
+ * this is the navigation bar component. It contains title, and two menu items. 
+ */
 // sfc + tab create functional components
 import { Link } from 'react-router-dom'; // let react to handle the web page link requests in the browser
 

@@ -1,3 +1,7 @@
+/**
+ * this is the blog details component. It displays full blog contents after the id of the corresponding 
+ * blog is called as route parameter. 
+ */
 import { useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 

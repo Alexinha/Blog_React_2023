@@ -1,3 +1,7 @@
+/**
+ * this is the entry point for the application
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

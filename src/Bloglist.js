@@ -1,3 +1,6 @@
+/**
+ * this is the blog list component. It displays all the blog previews and is used in the home component.
+ */
 import { Link } from 'react-router-dom';
 // grab the props object in the ()
 const Bloglist = (props) => {
