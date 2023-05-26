@@ -18,8 +18,6 @@ const useFetch = (url) => {
         // can be associated with one specific fetch request and used later to stop it
         // pass in the abortConst.signal to fetch request as an argument to do so 
         const abortConst = new AbortController(); 
-
-
         setTimeout(() => {
             fetch(url, {signal: abortConst.signal}) // do not hard-code the url end point
             .then(res => { // get the response object first
