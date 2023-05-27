@@ -5,6 +5,8 @@
  */
 
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
+
 const Create = () => {
 
     const [title, setTitle] = useState("");
@@ -12,6 +14,8 @@ const Create = () => {
     const [author, setAuthor] = useState("Alexinha");
 
     const [isPending, setIsPending] = useState(false);
+
+    const history = useHistory(); // user history hook
 
     const handleSubmit = function(e){
         e.preventDefault(); // prevent from refreshing the page
@@ -27,6 +31,8 @@ const Create = () => {
         }).then(()=>{
             console.log("new blog added");
             setIsPending(false);
+            // history.go(-1); // go back one step according to the user history after the info has been submitted
+            history.push('/'); // go back to the home page 
         });
     }
 
